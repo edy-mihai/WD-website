@@ -1,0 +1,61 @@
+/* element selectors */
+body {
+    margin: 0;
+    background-color: #11bfcf;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin: 10px 0 10px;
+}
+
+h2 {
+    margin: 0 0 15px;
+}
+
+/* id selector */
+#card {
+    width: 400px;
+    height: 300px;
+    margin: 300px auto;
+    padding: 55px;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.586);
+}
+
+/* class selectors */
+.profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.name {
+    color: #355486;
+}
+
+.subtitle {
+    color: #777;
+    font-size: 16px;
+}
+
+/* more class selectors */
+.email {
+    display: block;
+    margin: 10px 0;
+    color: #2a7ae2;
+    text-decoration: none;
+}
+
+.github {
+    display: block;
+    color: #333;
+    text-decoration: none;
+}
+
+/* second id selector example */
+#card a:hover {
+    text-decoration: underline;
+}
